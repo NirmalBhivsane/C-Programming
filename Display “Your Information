@@ -1,0 +1,15 @@
+\\Display “Your Information” on the Screen in c Programming.
+
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+  
+   printf("\n My Name is = *here Your name*");
+   printf("\n My Age  is = *here Your age*");
+   printf("\n My Mobile Number is  = *Enter Your Number*");
+   return 0;
+   
+}
+
