@@ -1,7 +1,7 @@
 // To find size and range of all data types in C
 //Important note---the size of data can can be warrie according the compiler or the system
 
-
+//
 
 #include<stdio.h>
 #include<limits.h>
