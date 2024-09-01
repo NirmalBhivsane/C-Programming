@@ -1,0 +1,48 @@
+// To find size and range of all data types in C
+//10.5e-4
+
+
+#include<stdio.h>
+#include<limits.h>
+#include<float.h>
+
+int main()
+{
+      printf("\n sizeof(char) = %u",sizeof(char));
+     printf("\n sizeof(int) = %u",sizeof(int));
+     printf("\n sizeof(short) = %u",sizeof(short));
+     printf("\n sizeof(long) = %u",sizeof(long));
+     printf("\n sizeof(float) = %u",sizeof(float));
+     printf("\n sizeof(double) = %u",sizeof(double));
+     printf("\n sizeof(long double) = %u",sizeof(long double));
+
+
+     printf("\n SCHAR MIN = %d",SCHAR_MIN);
+     printf("\n SCHAR MAX = %d",SCHAR_MAX);
+
+     printf("\n UCHAR MAX = %d",UCHAR_MAX);
+
+     printf("\n Short MIN = %d",SHRT_MIN);
+     printf("\n SHORT MAX = %d",SHRT_MAX);
+
+     printf("\n USHRT MAX = %d",USHRT_MAX);
+
+
+     printf("\n INT MIN = %d",INT_MIN);
+     printf("\n INT MAX = %d",INT_MAX);
+
+     printf("\n UINT MAX = %u",UINT_MAX);
+
+     printf("\n LONG MIN = %ld",LONG_MIN);
+     printf("\n LONG MAX = %ld",LONG_MAX);
+
+     printf("\n ULONG MAX = %lu",ULONG_MAX);
+
+     printf("\n DBL MIN = %e",DBL_MIN);
+     printf("\n DBL MAX = %e",DBL_MAX);
+
+     printf("\n FLOAT MIN = %e",FLT_MIN);
+     printf("\n FLOAT MAX = %e",FLT_MAX);
+
+     return 0;
+}
