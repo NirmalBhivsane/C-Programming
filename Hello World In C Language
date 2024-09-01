@@ -1,4 +1,4 @@
-\\ Simple ""Hello World"" Massage Printing  Program in C Programming Language
+// Simple ""Hello World"" Massage Printing  Program in C Programming Language
 
 #include<stdio.h>
 
