@@ -1,0 +1,21 @@
+//Accept input from the user and check whether the input is number or character or symbol.
+
+#include<stdio.h>
+
+int main()
+{
+char ch;
+
+ printf("\n Enter the character = ");
+ scanf(" %c", &ch);
+
+  if(ch >= '0' && ch <= '9')
+     printf("\n %c is a number", ch);
+  else if((ch >= 'a' && ch <= 'z' ) || (ch >= 'A' && ch <= 'Z'))
+     printf("\n %c is a charcter", ch);
+  else
+     printf("\n %c is a Special Sysmbol", ch); 
+
+ return 0;
+
+}
